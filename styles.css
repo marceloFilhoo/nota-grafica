@@ -1,0 +1,210 @@
+html{
+    font-family: arial;
+}
+input, textarea, select, button{
+    border:1px solid rgb(129, 129, 129) ;
+}
+.box{
+    width: 810px;
+	height: 450px;  
+    padding: 10px;
+    position: relative;
+}
+.cabeçalho{
+    padding: 10px;
+    width: auto;
+    height: 100px;   
+}
+img{
+    width: 100px;
+    height: 100px;
+    display: inline;
+    border-radius: 20px;
+}
+
+.itens{
+    padding: 0px 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 10px;
+    
+}
+.titulo{
+    display: flex;
+}
+.itens h1{
+    margin: 0px;
+    font-family: arial black;
+    font-size: 25px;
+}
+.itens p{
+    margin: 0px;
+    font-size: 13px;
+   
+}
+.itens1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    float: right;
+    justify-content: center;
+    align-items: end;
+
+}
+.itens1 p{
+    font-weight: bold;
+    margin: 5px 0px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.recibo{
+    position: relative;
+    font-family: arial black;
+    width: 680px;
+    left: 115px;
+    bottom: 19px;
+    margin-right: 0px; 
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    
+}
+.recibo p {
+    margin-left: 20px;
+}
+
+.linha{
+    margin: 0px;
+    position: absolute;
+    bottom: 24px;
+    width: 700px;
+    border: 1px solid black;
+}
+
+.l3{
+    width: auto;
+    bottom: -2px;
+    position: relative;
+}
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    padding: 5px;
+}
+.texto{
+    border: 0px solid;
+    width: auto;
+    left: 0px;
+
+}
+#produtos{
+    padding: 5px;
+    width: auto;
+    height: 200px;
+    overflow: auto;
+    position: relative;
+}
+.text-area1{
+    position: absolute;
+    bottom: 0px;
+}
+table{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+th{
+    
+    padding: 10px;
+}
+td{
+    
+    padding: 0px;
+}
+.final{
+    width: auto;
+    height: 105px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+.unique{
+    font-weight: bold;
+    height: 24px;
+    border-radius: 10px;
+}
+#valor-total{
+    float: right;
+    font-family: arial black;
+    font-weight: bold;
+}
+.l4{
+    width: auto;
+    bottom: 2px;
+    position: relative;
+}
+.infos{
+    width: 30px;
+    margin: 5px;
+}
+#butao{
+    float: right;
+    margin-right: 60px;
+    height: 40px;
+    width: 90px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    cursor:pointer;
+    transition: background .3s;
+    position: absolute;
+    right: 5px;
+    top: 15px;
+   
+}
+#butao:hover{
+    background-color:rgba(134, 134, 134, 0.458);
+}
+#butao1{
+    float: right;
+    margin-right: 60px;
+    height: 40px;
+    width: 90px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    cursor:pointer;
+    transition: background .3s;
+    position: absolute;
+    right: 5px;
+    top: 60px;
+
+}
+.check{
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    cursor: pointer;
+}
+.check:hover{
+    background-color: rgb(233, 232, 232) ;
+}
+
+#butao1:hover{
+    background-color:rgba(134, 134, 134, 0.458);
+}
+#und{
+    width: 40px;
+}
